@@ -1,12 +1,42 @@
-*{
-    padding: 0;
-    margin: 0;
+
+.newlist {
+    padding-top: 0.13rem;
+    border-bottom: solid 1px #f1f1f1;
 }
 
-html{
-    font-size: 26.55vw;
+.conent .newlist img{
+    width: 100%;
+    margin-top: 0.08rem;
+    margin-bottom: 0.05rem;
 }
 
-a{
-    text-decoration: none;
+.newlist .newInfo{
+    padding-top: 0.05rem;
+    padding-bottom: 0.1rem;
+}
+
+.newInfo .new_hot{
+    float: left;
+}
+
+.newInfo .new_hot i{
+    background: url("../img/hot.jpg") no-repeat;
+    float: left;
+    width: 0.23rem;
+    height: 0.14rem;
+    background-size: cover;
+}
+.newInfo .new_hot span:nth-of-type(1){
+    margin-left: 0.05rem;
+    margin-right: 0.1rem;
+}
+.newInfo .new_hot span:nth-of-type(3){
+    margin-left: 0.05rem;
+}
+.newInfo .err{
+    float: right;
+    background: url("../img/err.jpg") no-repeat;
+    width: 0.23rem;
+    height: 0.14rem;
+    background-size: cover;
 }
